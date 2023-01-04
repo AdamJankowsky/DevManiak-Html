@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on DevManiak - He&#39;s a maniac on the code</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on DevManiak - He&#39;s a maniac on the code</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-PL</language>
+    <lastBuildDate>Wed, 04 Jan 2023 17:54:56 +0100</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Witaj na moim blogu</title>
+      <link>/post/001-first-post/</link>
+      <pubDate>Wed, 04 Jan 2023 17:54:56 +0100</pubDate>
+      
+      <guid>/post/001-first-post/</guid>
+      <description>Witaj na moim blogu. Blog powstał głównie w celu motywowania samego siebie aby od czasu do czasu nauczyć się czegoś nowego, niekoniecznie potrzebnego w pracy.
+Jestem programistą .NET ale chciałbym na tym blogu poruszczać się również w obszarach bardziej niskopoziomowych, a w przyszłości chciałbym zakupić moduł FPGA i napisać kilka artykułów na jego temat.
+Poza tym pewnie będą tutaj wpisy na temat chmury Azure oraz programowania w C#</description>
+    </item>
+    
+  </channel>
+</rss>
