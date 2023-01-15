@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.102.3" />
+	<meta name="generator" content="Hugo 0.108.0">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,6 @@
 <meta property="og:description" content="Blog o programowaniu" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="/" />
-
 
 		<meta itemprop="name" content="DevManiak - He&#39;s a maniac on the code">
 <meta itemprop="description" content="Blog o programowaniu">
@@ -54,6 +53,25 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/post/002-azure-vps/" rel="bookmark">
+			Dostęp do zasobów na Azure tylko z poziomu VPN&#39;a
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">Adam Jankowski</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2023-01-12T21:35:27&#43;01:00">2023-01-12</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/azure/" rel="category">azure</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Często chcemy aby nasze środowiska nie były dostępne w sieci, zwłaszcza jeśli są to środowiska testowe posiadające użytkowników testowych z prostymi hasłami, bo i tak wszyscy pracownicy korzystają z tego usera. Nie chcemy aby ktoś skanując IPki należące do operatorów chmury wyszukał nasz serwer z hasłem do admina typu zaq1@WSX. W tym celu możemy schować naszą infrastrukturę w VNETach i uzyskać do nich dostęp za pomocą hosta, z wystawionym VPNem na świat.
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/post/001-first-post/" rel="bookmark">
 			Witaj na moim blogu
 			</a>
@@ -89,6 +107,7 @@ Poza tym pewnie będą tutaj wpisy na temat chmury Azure oraz programowania w C#
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/post/002-azure-vps/">Dostęp do zasobów na Azure tylko z poziomu VPN&#39;a</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/001-first-post/">Witaj na moim blogu</a></li>
 		</ul>
 	</div>
@@ -98,6 +117,8 @@ Poza tym pewnie będą tutaj wpisy na temat chmury Azure oraz programowania w C#
 	<div class="widget__content">
 		<ul class="widget__list">
 			<li class="widget__item">
+				<a class="widget__link" href="/categories/azure/">azure</a></li>
+			<li class="widget__item">
 				<a class="widget__link" href="/categories/offtopic/">offtopic</a></li>
 		</ul>
 	</div>
@@ -105,7 +126,9 @@ Poza tym pewnie będą tutaj wpisy na temat chmury Azure oraz programowania w C#
 <div class="widget-taglist widget">
 	<h4 class="widget__title">Tags</h4>
 	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/azure/" title="azure">azure</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/offtop/" title="offtop">offtop</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/vpn/" title="vpn">vpn</a>
 	</div>
 </div>
 <div class="widget-social widget">
